@@ -1,0 +1,212 @@
+{
+    "SCREEN_LOGIN": {
+        "LOGIN_HEADER_TEXT": "Đăng nhập",
+        "LOGIN_EMAIL_TEXT": "Email",
+        "LOGIN_PASSWORD_TEXT": "Mật khẩu",
+        "LOGIN_REMEMBER_PASSWORD_TEXT": "Ghi nhớ đăng nhập",
+        "LOGIN_FORGOT_PASSWORD_TEXT": "Quên mật khẩu",
+        "LOGIN_NO_ACCOUNT_TEXT": "Bạn chưa có tài khoản QuikChek247?",
+        "LOGIN_REGISTER_BUTTON": "Đăng ký ngay",
+        "LOGIN_OTHER_SIGNIN_TEXT": "Hoặc đăng nhập với",
+        "LOGIN_REGISTER_NOW_TEXT": "Đăng ký ngay",
+        "LOGIN_BACK_TO_HOMEPAGE_TEXT": "Về trang chủ",
+        "LOGIN_BUTTON_TEXT": "Đăng nhập",
+        "LOGIN_ENTER__BASE64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAPVJREFUSEvFlWsRwjAQhHcVgANAATigOAAHSEICDpAAEsABdYCDZW6mmekrTZs00L+9u+9275IQmT9mro/fAiQVAG4AlpHKPgBOJB8uv6FAkgUsIou7tDfJjQ8g+0EyyjpJnfy2gv8BJO2q+ZjHzz4bkxRIssHtAdicDn2QIGBouJJsswyy9UGSAAYPQYIAFzBhTRt25QC8ABQkDWQKh9c01Hll0R2AbVSjeDIgVHwUoE+iU1Vb007ntZj4k1wdtAuAo/O8bWlwBkMKQvNJtmguwBzXdUly7buu7cG5AliN6bgnpgRw9j44kUUH06IelimNZAd8AR7wqBkVY7EYAAAAAElFTkSuQmCC",
+        "LOGIN_EYE_ICON__BASE64":
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAYxJREFUSEvlVdFNw0AMfZ6AjgATwAa0G/TdApQJKBOQblA26AR1mYB0A9igbFAmMHJ0iY7rRaki9av+iuLYz37PdgQXNrlwflwJgKo+AHgEMImUHgHsSX4NUdxLkareAngDME8S5/kcaAdgRfJQAisCqGoVkw8VmPorkqs84B+AqjoFnwCcks7M7ENE1iRrf6mqUzOrRMRpS839JOmdNdYB9CUH8ExyU2qlp1PXZdaCpACe5CmvPIQwj+CuxyL6NyRf/Xm73daFTt5JLrsOvOVITV6oV1Kr6hrAS+Z0Yauh2KaDniqczNZ/FJGbDOBA8i5qYgUKa5Kz0QBm9hNC8FF20U8AzGwfQpg2AENt9oh5PkURpMTzzmeu9ZuZLx1ExEX2XTlP5JhgYmY+EfcZn8UFijEnC2lm3yIyPRnTBGRXWiBfrBDCPqHUx9anrzPnXUTmxUVLPxx5KhpN8mkaOnZLM1sURrTJY2a/rgcAPyPnH7u8iniunY70XPucjz/Xpdsz5t2V/DLHUNPG/AE0j9EZIg/W7AAAAABJRU5ErkJggg==",
+        "LOGIN_EMAIL_ICON__BASE64":
+            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNC4wOSIgaGVpZ2h0PSIxOS4yNzIiIHZpZXdCb3g9IjAgMCAyNC4wOSAxOS4yNzIiPg0KICA8cGF0aCBpZD0iaWNfbWFpbF9vdXRsaW5lXzI0cHgiIGQ9Ik0yMy42ODEsNEg0LjQwOWEyLjQwNiwyLjQwNiwwLDAsMC0yLjQsMi40MDlMMiwyMC44NjNhMi40MTYsMi40MTYsMCwwLDAsMi40MDksMi40MDlIMjMuNjgxYTIuNDE2LDIuNDE2LDAsMCwwLDIuNDA5LTIuNDA5VjYuNDA5QTIuNDE2LDIuNDE2LDAsMCwwLDIzLjY4MSw0Wm0wLDE2Ljg2M0g0LjQwOVY4LjgxOGw5LjYzNiw2LjAyMiw5LjYzNi02LjAyMlptLTkuNjM2LTguNDMxTDQuNDA5LDYuNDA5SDIzLjY4MVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC00KSIgZmlsbD0iI2FmYWZhZiIvPg0KPC9zdmc+DQo=",
+        "LOGIN_PASSWORD_ICON__BASE64":
+            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4NCiAgPGcgaWQ9InZwbl9rZXkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMzQgLTEzMDQpIj4NCiAgICA8cmVjdCBpZD0iUGF0aCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzQgMTMwNCkiIGZpbGw9InJnYmEoMCwwLDAsMCkiLz4NCiAgICA8cGF0aCBpZD0iSWNvbiIgZD0iTTE1NiwxMzIzaC02di00aC0yLjY4YTcsNywwLDEsMSwwLTZIMTU4djZoLTJ2NFptLTEwLjA2LTZIMTUydjRoMnYtNGgydi0yaC0xMC4wNmwtLjIyOS0uNjdhNSw1LDAsMSwwLDAsMy4zNGwuMjI5LS42NjlaTTE0MSwxMzE5YTMsMywwLDEsMSwzLTNBMywzLDAsMCwxLDE0MSwxMzE5Wm0wLTRhMSwxLDAsMSwwLDEsMUExLDEsMCwwLDAsMTQxLDEzMTVaIiBmaWxsPSIjYWZhZmFmIi8+DQogIDwvZz4NCjwvc3ZnPg0K",
+        "LOGIN_FACEBOOK_ICON__BASE64":
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAAq1JREFUWEfdmOFxEzEQhd+rgHQAqQBSAekAqICkAuIKMBUQKiBUAKmAuAJIBSQVQCpY5mkkc2d0utVJxw92xmN7TtJ9Wml3n0QsNDN7BuAFAH0/id/D0b4DuANwA2BHUv+rjTU9zEwgbwC8jFA13QX7BcAHkvrtMhegmR0BeAvgwjXqfKNLAO9I/pprOgtoZvLWRwCC7GmCOycpr05aEdDM3nf02hTEJcnN1MMsYFxSwZ31dFlhrCuS57nnU4Ba0n8Fl7iykH8Bmpk2sCK1l90DeOwcTBE+CsQRYAyIz87BpprtAGiSN7koNbNTAF8L73g1DJw9YNx3PxqjdUNScEUzMys0UHQfp8kNAVuX1gUnsBlANdkvdQCM3vs5N/PC81uSKnkucwDuvZgAt7FSuF6QaaSEe+Xt7ADUUKo02wSovac6u9S0Z7L1NQbe64O9rUCZszuSx4yq5Ntc69JzklP5VGWyJSucCFB5R1VjsRUAJbWeLx4Y2AhQxVq6brEVABV4LSLjWoCts0QBsJTvPA7ZCbB1kDUB8d8B6mzhSRGTy2dmUklSSy6TB5W/vGqjB2BNUbivDZIegDVBGYKkrkP7EqsoeOt2AKxJ1D08WJM1QqLWbLylrgmw8l0KopMkFiRvHrnCKtNopUT9QPIoAUoqSXEsspUAP5E8S4CSWpJci2wlwCDhhpJ/sRdXAAzek7eGgPKibqCq92JnwAeloSSAD4+dNSlnvx06A44OX7mDe7U+7Ah4TVIq/M/kD6MinvBUXZ56I6YT4C2A08PDfunyyA3ZATALNwqSFk82Ak7CFQETsJnNyqMGwHD2LW2l2RtWdY41VFcj2RPaAkBdMF14LtZdgANvSk1rxiPQCkCBbUlqf7usCnAAqqQu2PAhmb2ViGpdMOFTc7uf3vUbT11hIdmclfYAAAAASUVORK5CYII=",
+        "LOGIN_GOOGLE_ICON__BASE64":
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAABHNCSVQICAgIfAhkiAAAA2JJREFUWEfNmY1xEzEQhd+rgFABUAFJBZAKcCoAV0CogLgC7AoIFeBUQFwBSQWQCiAVLPNupBvdWXvSnQ+DZjzJxPr5pP15K4WY2MzsOYBXAF4D0O/6mbafAPS5A3ALYEfy95TlOGaQmZ0AeAvgHYDTMWND3y2ADUlBV7dqSDP7COASgEAPbYJc1cIWIc1MJ/Y1mPRQuP74awAfSm4wCGlmMuvnuckyvntBUr6bbS6kmQlOkMdoCqhzDzQLeWTAeAgu6B7kkUzsWUegZySVutrWgQxB8v0Y9h1Y447k2RDkj78UxWP3rfR0FQe1J2lm+qNy4f/SXkSzN5BBSXSKNYn6JkhdTBnKo/q8mXl3X0g22SVCSkk+FRbZALjyEm/QcllDsjlXa04zQipYPC1+BLColbCZ3UZqtGY4AZnaa0oJrhqkg0J2+FbpNjWn3US6IIekrxNlwXffByVSeabWVDYAlONqAVdhrNZ+VqB9KkiJfM6PHkhGkBhcgvDcQpA1gQeS0c1UDakmHWrngvQ6qu5TQDVtYDM1Zuv0GQm5EqQ5q0jwm+LU8dsHALLCUJMlopV2sSPJpoo3s3ViGfXNmX4Qsk2mZqZJZeq06TrQvzJ0OqTj4ul5OxrIChv3JNNJneA6FuSu1twKln7hMQoyPcEpPqmyKOcLS5Ktz5mZ1y9dv5+ysko2BdKL7lY7g5Pn/DIFvNe1NpVNM8sq2UjIpcytCFOCzrU2eALoIkT0k34QBels79VOsI1OV00RbGZaWLfBXNuSvEi/CKqjMUoZgrrNyaZ3iiMpH0meCFIq8WtgcMfPahaZ8Y50Q3IR5Un6O1QPXpNclgDDhlXyzXXL1FV3GyFLQSE+RbfqRe2u86YT4LRJ+XeVfpc2DKCtHdLrQ43Yx7nTtxxBTXkXKnG2bpZC1pxmaeK5vlddcBot1r/SlnxzLojSPI0vxk59SJlOVXipEC0tcsj3nRJRE+VeMORf8rl+wj5k4dqx9yT3/Nt7C/oXoHuymjV3T1mOCeoCZs3dA5X0yYFf1tprQr89H+zPUXzp1YCZ79KRQWnmMo1ib4NVkAFUpzrHC0W8G61Lz9BFn/R2FS5lqoKkz7VuoFcQZQzVAG3+q3WN6pPMTRg0WwEWL2RRIqNsNv/LqX2i8aD/AJ6Yhku/BWgFAAAAAElFTkSuQmCC"
+    },
+    "SCREEN_REGISTER": {
+        "REGISTER_HEADER_TEXT": "Đăng kí tài khoản",
+        "REGISTER_TARGET_TEXT": "Bạn là:",
+        "REGISTER_CUSTOMER_TARGET_TEXT": "Khách hàng",
+        "REGISTER_CUSTOMER_TARGET_JSON": {
+            "CONTENT":"<em>Bạn có nhu cầu thu thập dữ liệu từ thị trường một cách nhanh chóng, chính xác và hiệu quả nhất?</em><br/><br/><em>Hãy tham gia QuikChek247 ngay hôm nay!</em><br/><b>Chúng tôi cung cấp công cụ bạn cần.</b>",
+            "ICON": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAaZJREFUOE+dlU1SwkAQhV9riq3cQDiB3EA9gbBJypV6AkmVwXKnK0uyAE8grCziAm4gRwgnMJxA9yBt9cBQyZDEKWbZ6f5m+vVPCAWnG/E1gFMADQIa4sZADCA+YEzvPBrmhZJpfBlxk4AeEWpFlyk4I2HAv/dokvbLALsR9wm4LQPtfGP0A498bd8CC2DzFaNdqWAqAYsFmgDk0qM0mIHXjkttsSmgpHlAGGduZ8ycCs78Fv2k7d2IRc+pCV0xWpK+AoYRJwCOjVtvOi4NpDii6aYofsr2lvFnJB2P6rQJyHxUjoRzx0G8XOALQFUXQoJ6Y64uF/g29ZRXUjjiAQhXloWYBy7Vnt+55hyqi7KHMRRgDMKJDVDrFH5wG7yWwZAppjBitoExoDWVRv/UMpixdkDGU+DRo1S4DKakt0l5+Yv6wyUlYcQyFReFGTFmVkUJXNLtVS6PFCW3qW1EzfFRbVPU2HswVUsVj16KaJNyZvQktmzT/AfcWQ76MfusrzRsPbHG2RSpby6LHE3VaitdsOkgBYbaf43taDJm8gtYARMTpGP/AMOtzSggjcrJAAAAAElFTkSuQmCC"
+        },
+        "REGISTER_RESPONDENT_HELPER_JSON": {
+            "CONTENT": "<em>Chúng tôi cần bạn cung cấp góc nhìn của bạn về các sản phẩm bạn đang sử dụng.</em><br/><br/><em>Hãy tham gia QuikChek247 ngay hôm nay để <strong>trả lời </strong>bảng câu hỏi và <strong>nhận quà </strong>hấp dẫn!</em>",
+            "ICON": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAaZJREFUOE+dlU1SwkAQhV9riq3cQDiB3EA9gbBJypV6AkmVwXKnK0uyAE8grCziAm4gRwgnMJxA9yBt9cBQyZDEKWbZ6f5m+vVPCAWnG/E1gFMADQIa4sZADCA+YEzvPBrmhZJpfBlxk4AeEWpFlyk4I2HAv/dokvbLALsR9wm4LQPtfGP0A498bd8CC2DzFaNdqWAqAYsFmgDk0qM0mIHXjkttsSmgpHlAGGduZ8ycCs78Fv2k7d2IRc+pCV0xWpK+AoYRJwCOjVtvOi4NpDii6aYofsr2lvFnJB2P6rQJyHxUjoRzx0G8XOALQFUXQoJ6Y64uF/g29ZRXUjjiAQhXloWYBy7Vnt+55hyqi7KHMRRgDMKJDVDrFH5wG7yWwZAppjBitoExoDWVRv/UMpixdkDGU+DRo1S4DKakt0l5+Yv6wyUlYcQyFReFGTFmVkUJXNLtVS6PFCW3qW1EzfFRbVPU2HswVUsVj16KaJNyZvQktmzT/AfcWQ76MfusrzRsPbHG2RSpby6LHE3VaitdsOkgBYbaf43taDJm8gtYARMTpGP/AMOtzSggjcrJAAAAAElFTkSuQmCC"
+        },
+        "REGISTER_RESPONDENT_TARGET_TEXT": "Đáp viên",
+        "REGISTER_FIRSTNAME_TEXT": "Họ (bắt buộc)",
+        "REGISTER_MIDDLENAME_TEXT": "Tên lót",
+        "REGISTER_LASTNAME_TEXT": "Tên (bắt buộc)",
+        "REGISTER_GENDER_TEXT": "Quý danh (bắt buộc)",
+        "REGISTER_MALE_TEXT": "Mr.",
+        "REGISTER_FEMALE_TEXT": "Ms.",
+        "REGISTER_EMAIL_TEXT": "Email (bắt buộc)",
+        "REGISTER_PASSWORD_TEXT": "Mật khẩu (bắt buộc)",
+        "REGISTER_REPEAT_PASSWORD_TEXT": "Điền lại mật khẩu (bắt buộc)",
+        "REGISTER_AGREE_WITH_TEXT": "Tôi đồng ý với <a href='/terms-and-policy'>Điều khoản sử dụng</a>",
+        "REGISTER_TEXT_BUTTON": "Đăng ký",
+        "REGISTER_BACK_HOMEPAGE_TEXT": "Về trang chủ",
+        "REGISTER_BACK_SIGNIN_TEXT": "Trở về trang đăng nhập",
+        "REGISTER_PASSWORD_NOTIFICATION":
+            "*Mật khẩu có độ dài ít nhất 8 ký tự, chứa ít nhất 1 ký tự viết hoa, và 1 kí tự số <i>hoặc</i> 1 kí tự đặc biệt (@,#,$,%,!,_,*).",
+        "REGISTER_EYE_ICON__BASE64":
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAYxJREFUSEvlVdFNw0AMfZ6AjgATwAa0G/TdApQJKBOQblA26AR1mYB0A9igbFAmMHJ0iY7rRaki9av+iuLYz37PdgQXNrlwflwJgKo+AHgEMImUHgHsSX4NUdxLkareAngDME8S5/kcaAdgRfJQAisCqGoVkw8VmPorkqs84B+AqjoFnwCcks7M7ENE1iRrf6mqUzOrRMRpS839JOmdNdYB9CUH8ExyU2qlp1PXZdaCpACe5CmvPIQwj+CuxyL6NyRf/Xm73daFTt5JLrsOvOVITV6oV1Kr6hrAS+Z0Yauh2KaDniqczNZ/FJGbDOBA8i5qYgUKa5Kz0QBm9hNC8FF20U8AzGwfQpg2AENt9oh5PkURpMTzzmeu9ZuZLx1ExEX2XTlP5JhgYmY+EfcZn8UFijEnC2lm3yIyPRnTBGRXWiBfrBDCPqHUx9anrzPnXUTmxUVLPxx5KhpN8mkaOnZLM1sURrTJY2a/rgcAPyPnH7u8iniunY70XPucjz/Xpdsz5t2V/DLHUNPG/AE0j9EZIg/W7AAAAABJRU5ErkJggg==",
+        "REGISTER_KEY_ICON__BASE64":
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAX1JREFUSEvtVeFNgkEMfZ1ARoAJ1AnADegtoE4gGwATiBPIBFeZQDbQDcQNcIKaR3qIHwQOI/+4hORIeu+1r6/9BCc+cmJ8nAkOKvxLIjNrAXgA0AdwFa/nAPh7UtXlQcRGwJrAzO4APAIgya5DcFVVklWfFUGAP/Pu7jMRmRAoKuq5+0BEuoFKkpdaBgmQj8j8XlWnux6b2STkYyWdWrlIMAIwZOYppX4QDqMP5Jqq6piXnPN8o5KqIiTn/C4ilwBuQpaS6SbAWFVHZtYD8FqFHEGswHlX1VU/cs5LEbkAcB0xbwAWqto5BrjgVhG4+2dKqf0ngv+SqChQMi/JrJsM4IX+C9tO3J3DBhFhk2mEvU3eR9By90XoPiqOacphZrTvrbt/iUi72LTZw+b/MmjM1spqcPdJSmlGy7p7V0QGAOig8MPPoFURlGkmcFSy1c/IvN9cFU3Ny8Mi2a5lN6D+nA2CAuCccP9wfWwtu6MIjrFhbez5i3ZQqZNL9A2Yjtxhq1e4GAAAAABJRU5ErkJggg==",
+        "REGISTER_SUPPORT_ICON__BASE64":
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAaZJREFUOE+dlU1SwkAQhV9riq3cQDiB3EA9gbBJypV6AkmVwXKnK0uyAE8grCziAm4gRwgnMJxA9yBt9cBQyZDEKWbZ6f5m+vVPCAWnG/E1gFMADQIa4sZADCA+YEzvPBrmhZJpfBlxk4AeEWpFlyk4I2HAv/dokvbLALsR9wm4LQPtfGP0A498bd8CC2DzFaNdqWAqAYsFmgDk0qM0mIHXjkttsSmgpHlAGGduZ8ycCs78Fv2k7d2IRc+pCV0xWpK+AoYRJwCOjVtvOi4NpDii6aYofsr2lvFnJB2P6rQJyHxUjoRzx0G8XOALQFUXQoJ6Y64uF/g29ZRXUjjiAQhXloWYBy7Vnt+55hyqi7KHMRRgDMKJDVDrFH5wG7yWwZAppjBitoExoDWVRv/UMpixdkDGU+DRo1S4DKakt0l5+Yv6wyUlYcQyFReFGTFmVkUJXNLtVS6PFCW3qW1EzfFRbVPU2HswVUsVj16KaJNyZvQktmzT/AfcWQ76MfusrzRsPbHG2RSpby6LHE3VaitdsOkgBYbaf43taDJm8gtYARMTpGP/AMOtzSggjcrJAAAAAElFTkSuQmCC",
+        "REGISTER_GENDER_MESSAGE": "Vui lòng chọn quý danh",
+        "REGISTER_TARGET_MESSAGE":
+            "*Vui lòng chọn tài khoản bạn muốn đăng ký",
+        "REGISTER_AGREE_MESSAGE": "Bạn chưa đồng ý Điều khoản sử dụng"
+    },
+    "SCREEN_CONFIRM": {
+        "CONFIRM_HEADER_TEXT": "Đăng ký tài khoản",
+        "CONFIRM_MAIL_INFO_SENT_TEXT": "Thông tin xác thực Email đã được gửi đến: ",
+        "CONFIRM_MAIL_CHECK_TEXT": "Vui lòng kiểm tra và làm theo hướng dẫn để hoàn thành đăng ký tài khoản QuikChek.",
+        "CONFIRM_EMAIL_REGISTERED_TEXT": "[Email đã đăng ký]",
+        "CONFIRM_NOTICE_TEXT": "(Lưu ý: Mail xác thực có thể nằm trong Spam. Vui lòng kiểm tra trước khi yêu cầu gửi lại)",
+        "CONFIRM_NOT_RECEIVED_TEXT": "Bạn chưa nhận được mail xác thực?",
+        "CONFIRM_SEND_AGAIN_TEXT": "Gửi lại",
+        "CONFIRM_SEND_OVER_TIME_TEXT": "Bạn đã yêu cầu gửi lại email xác thực quá 3 lần.",
+        "CONFIRM_HAVE_PROBLEM_TEXT": "Nếu có vấn đề, bạn có thể ",
+        "CONFIRM_SECOND_LEFT_TEXT": "Còn ",
+        "CONFIRM_SECOND_TEXT": "giây",
+        "CONFIRM_CONTACT_SUPPORT_TEXT": "liên hệ nhân sự Support 24/7 ",
+        "CONFIRM_SUPPORT_OURS_TEXT": "của chúng tôi để nhận hỗ trợ",
+        "CONFIRM_SIGNUP_AGAIN_TEXT": "<<Đăng nhập lại",
+        "CONFIRM_BACK_TO_HOME_TEXT": "Về trang chủ"
+    },
+    "SCREEN_REGISTER_SUCCESS": {
+        "SUCCESS_HEADER_TEXT": "Thành công",
+        "SUCCESS_CONGRATULATE_TEXT": "Bạn đã đăng ký tài khoản thành công!",
+        "SUCCESS_CONFIRM_EMAIL_TEXT": "Vui lòng xác thực tài khoản qua email đã đăng ký.",
+        "SUCCESS_AUTO_REDIRECT_TEXT": "Web sẽ tự động chuyển vào trang cá nhân của bạn sau 15 giây",
+        "SUCCESS_THANKS_TEXT": "Cảm ơn bạn đã đăng ký!"
+    },
+    "SCREEN_RECOVER_ACCOUNT": {
+        "RECOVER_ACCOUNT_HEADER_TEXT": "Khôi phục tài khoản",
+
+        "RECOVER_ACCOUNT_PHONE_PLACEHOLDER_TEXT": "Phone",
+        "RECOVER_ACCOUNT_EMAIL_PLACEHOLDER_TEXT": "Email",
+
+        "RECOVER_ACCOUNT_EMAIL_ICON__BASE64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAUCAYAAAB4d5a9AAAABHNCSVQICAgIfAhkiAAAAWNJREFUOE/lVdFVwkAQnK1AOlA7sAMtgaUBsQKxAqECsQJjAxmtQErADrADrGB9c2/h5SlBDPlzf5J3uZ3Jzs7tGckLAA8ArtBvLAHcuPvS6rpemNllv/hbtJW7nxvJyKU1gGcAeh4VETExsxOBuLs1SbS2yhIXXVhISnJJrxaU2EWy+faSZAdVRXIA4B7ARAAR8dlWySwZtFkhgqm7P+6riuQQwBMAESm0X0pwVyUzd5+SPIuIqmEGJdzJJU0y7Uvw4sqIeDezsfalbG+tJBsgkuOImG/KVlX6S3dfk9T7rf4+pVHF80auiH8nUUJqreTrBJAxJGNpbES8mtnE3bW+jYMr+Z6UEp4m+EeCyyA/ohNJQwbJpAZLnlbnHUWyz2VHy3UoeKfG/xX8f5FUsmlXiZp5ZqZzVA5nGZB1Xa/MrPi/79A0GI1GA436YR60Mv97Dt2MlQk0x8f2DuiJSLdiGTdfbbzyFekoNJsAAAAASUVORK5CYII=",
+        "RECOVER_ACCOUNT_PHONE_ICON__BASE64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABHNCSVQICAgIfAhkiAAAASJJREFUOE+llNFNw0AQRGcrICWkA5IKSAcwbgDoIOkgVAB0EBq4cQekA5wOoALoYNGiM0rOcZQDS/6wdfM0uzt7llLqzOwShw9JtsW/k58myY+ceCC5rgKNOHoheVcL2prZVSHqSM6rQJI2AG5LEUmrBd0A0L7I3XdN08xqQRMAn70oIGa2IPlVBYrDKaXWzK7d/cPMZrWQYPz0QVKU8QYgXMxJvte4+QVlWN/0NtL4H9DU3SPlFwBWJJ9qYAcjlrQ/wXuS4fKsZ5AVSUsAj1m9JPnckyTFhF8BRE87ANvc193R0BWwWN5VFvSQgcvR9EaZ7r7JPYtpxjsdq/PkGkgKYdwCgxUqgWftU+TM3dcR2j85KkW52QsAUXa4ncSlGGv1DcmsdnpeydO9AAAAAElFTkSuQmCC",
+
+        "RECOVER_ACCOUNT_TEXT_HEAD_TEXT": "Bạn vui lòng điển 1 trong 2 trường thông tin sau:",
+        "RECOVER_ACCOUNT_EMAIL_DESCRIPTION_TEXT": "Thông tin khôi phục sẽ được gửi qua Email cho bạn. Vui lòng kiểm tra cả Inbox và Spam.",
+        "RECOVER_ACCOUNT_EMAIL_DESCRIPTION_ITALIC_TEXT": "Lưu ý: Email của bạn điềm phải là email ",
+        "RECOVER_ACCOUNT_EMAIL_DESCRIPTION_LINK_TEXT": "đã được xác thực.",
+        "RECOVER_ACCOUNT_OR_TEXT": "hoặc",
+        "RECOVER_ACCOUNT_PHONE_DESCRIPTION_TEXT": "<p>Mã OTP sẽ được gửi đến Số điện thoại của bạn. Vui lòng điền tương ứng ở trang tiếp theo để khôi phục tài khoản.</p>",
+        "RECOVER_ACCOUNT_PHONE_DESCRIPTION_ITALIC_TEXT": "Lưu ý: Số điện thoại bạn điền phải là số điện thoại ",
+        "RECOVER_ACCOUNT_PHONE_DESCRIPTION_LINK_TEXT": "đã được xác thực.",
+
+        "RECOVER_ACCOUNT_CONFIRM_TEXT": "Xác nhận khôi phục",
+
+        "RECOVER_ACCOUNT_SUPPORT_TEXT": "Nếu bạn cần hỗ trợ, hãy liên lạc với bộ phận Support 24/7 của chúng tôi qua:",
+        "RECOVER_ACCOUNT_SUPPORT_PHONE_TEXT": "Số điện thoại:",
+        "RECOVER_ACCOUNT_SUPPORT_PHONE_NUMBER": "0123456789",
+        "RECOVER_ACCOUNT_SUPPORT_HOTLINE_TEXT": "Hotline:",
+        "RECOVER_ACCOUNT_SUPPORT_HOTLINE_NUMBER": "0123456789",
+        "RECOVER_ACCOUNT_SUPPORT_EMAIL_TEXT": "Email:",
+        "RECOVER_ACCOUNT_SUPPORT_EMAIL_ADDRESS_TEXT": "support@smdvn.com.vn"
+
+    },
+    "SCREEN_CHANGE_PASSWORD": {
+        "CHANGE_PASSWORD_HEADER_TEXT": "Đổi mật khẩu",
+        "CHANGE_PASSWORD_ENTER_PASSWORD_TEXT": "Bạn hãy nhập mật khẩu của mình. Mật khẩu này sẽ dùng để đăng nhập về sau.",
+        "CHANGE_PASSWORD_REQUIRED_TEXT": "* Mật khẩu cần có độ dài ít nhất 8 kí tự, chưa ít nhất 1 ký tự viết hoa hoặc 1 kí tự số hoặc 1 kí tự đặc biệt(@,#,$,%,^).",
+        "CHANGE_PASSWORD_CONFIRM_TEXT": "Xác nhận",
+        "CHANGE_PASSWORD_ENTER_AGAIN_TEXT": "Điền lại mật khẩu",
+        "CHANGE_PASSWORD_ENTER_NEW_TEXT": "Mật khẩu mới",
+        "CHANGE_PASSWORD_EYE_ICON__BASE64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAYxJREFUSEvlVdFNw0AMfZ6AjgATwAa0G/TdApQJKBOQblA26AR1mYB0A9igbFAmMHJ0iY7rRaki9av+iuLYz37PdgQXNrlwflwJgKo+AHgEMImUHgHsSX4NUdxLkareAngDME8S5/kcaAdgRfJQAisCqGoVkw8VmPorkqs84B+AqjoFnwCcks7M7ENE1iRrf6mqUzOrRMRpS839JOmdNdYB9CUH8ExyU2qlp1PXZdaCpACe5CmvPIQwj+CuxyL6NyRf/Xm73daFTt5JLrsOvOVITV6oV1Kr6hrAS+Z0Yauh2KaDniqczNZ/FJGbDOBA8i5qYgUKa5Kz0QBm9hNC8FF20U8AzGwfQpg2AENt9oh5PkURpMTzzmeu9ZuZLx1ExEX2XTlP5JhgYmY+EfcZn8UFijEnC2lm3yIyPRnTBGRXWiBfrBDCPqHUx9anrzPnXUTmxUVLPxx5KhpN8mkaOnZLM1sURrTJY2a/rgcAPyPnH7u8iniunY70XPucjz/Xpdsz5t2V/DLHUNPG/AE0j9EZIg/W7AAAAABJRU5ErkJggg=="
+    },
+    "SCREEN_PHONE_NOTIFICATION": {
+        "PHONE_NOTIFICATION_HEADER_TEXT": "Khôi phục tài khoản",
+        "PHONE_NOTIFICATION_INPUT_PLACEHOLDER_TEXT": "OTP",
+        "PHONE_NOTIFICATION_NOTICE_TEXT": "Hãy nhập mã OTP được gửi vào SĐT đã điền để đổi mật khẩu tài khoản của bạn.",
+        "PHONE_NOTIFICATION_OTP_AVAILABLE_TEXT": "Lưu ý: Mã OTP còn hiệu lực trong:",
+        "PHONE_NOTIFICATION_MINUTES_TEXT": "phút",
+        "PHONE_NOTIFICATION_SECONDS_TEXT": "giây",
+        "PHONE_NOTIFICATION_ACCEPT_TEXT": "Xác nhận",
+        "PHONE_NOTIFICATION_LEFT_TEXT": "Còn",
+        "PHONE_NOTIFICATION_OVER_SEND_TEXT": "*Bạn đã yêu cầu gửi lại OTP quá 3 lần",
+        "PHONE_NOTIFICATION_PROBLEM_TEXT": "Nếu có vấn đề về đăng nhập, bạn có thể chọn phương thức khác hoặc ",
+        "PHONE_NOTIFICATION_CONTACT_TEXT": "liên hệ nhân sự Support 24/7.",
+        "PHONE_NOTIFICATION_BACK_TO_LOGIN_TEXT": "Trở lại trang đăng nhập",
+        "PHONE_NOTIFICATION_SEND_AGAIN_TEXT": "Gửi lại",
+        "PHONE_NOTIFICATION_OTP_NOT_RECEIVED_TEXT": "Tôi chưa nhận được OTP.",
+        "PHONE_NOTIFICATION_TIME_OVER": "OTP đã hết hiệu lực, vui lòng yêu cầu gửi lại",
+        "PHONE_NOTIFICATION_OTHER_METHOD_TEXT": "Sử dụng phương thức khôi phục khác.",
+        "PHONE_NOTIFICATION_KEY_ICON__BASE64":
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAX1JREFUSEvtVeFNgkEMfZ1ARoAJ1AnADegtoE4gGwATiBPIBFeZQDbQDcQNcIKaR3qIHwQOI/+4hORIeu+1r6/9BCc+cmJ8nAkOKvxLIjNrAXgA0AdwFa/nAPh7UtXlQcRGwJrAzO4APAIgya5DcFVVklWfFUGAP/Pu7jMRmRAoKuq5+0BEuoFKkpdaBgmQj8j8XlWnux6b2STkYyWdWrlIMAIwZOYppX4QDqMP5Jqq6piXnPN8o5KqIiTn/C4ilwBuQpaS6SbAWFVHZtYD8FqFHEGswHlX1VU/cs5LEbkAcB0xbwAWqto5BrjgVhG4+2dKqf0ngv+SqChQMi/JrJsM4IX+C9tO3J3DBhFhk2mEvU3eR9By90XoPiqOacphZrTvrbt/iUi72LTZw+b/MmjM1spqcPdJSmlGy7p7V0QGAOig8MPPoFURlGkmcFSy1c/IvN9cFU3Ny8Mi2a5lN6D+nA2CAuCccP9wfWwtu6MIjrFhbez5i3ZQqZNL9A2Yjtxhq1e4GAAAAABJRU5ErkJggg=="
+    },
+    "SCREEN_LOGIN_SUPPORT": {
+        "LOGIN_SUPPORT_HEADER_TEXT": "Hỗ trợ đăng nhập",
+        "LOGIN_SUPPORT_CONTACT_ADMIN_TEXT": "Vui lòng liên hệ Admin QuikChek để được hỗ trợ nội bộ.",
+        "LOGIN_SUPPORT_PHONE_TEXT": "Số điện thoại:",
+        "LOGIN_SUPPORT_PHONE_NUMBER": "0123456789",
+        "LOGIN_SUPPORT_HOTLINE_TEXT": "Hotline:",
+        "LOGIN_SUPPORT_HOTLINE_NUMBER": "0123456789",
+        "LOGIN_SUPPORT_EMAIL_TEXT": "Email:",
+        "LOGIN_SUPPORT_EMAIL_ADDRESS_TEXT": "support@smdvn.com.vn",
+        "LOGIN_SUPPORT_BACK_TO_LOGIN_TEXT": "Trở lại trang đăng nhập",
+        "LOGIN_SUPPORT_BACK_TO_HOME_TEXT": "Về trang chủ"
+    },
+    "SCREEN_BLOCK_ACCOUNT": {
+        "BLOCK_ACCOUNT_HEADER_TEXT": "Khóa tài khoản",
+        "BLOCK_ACCOUNT_BLOCK_NOTICE_TEXT": "Tài khoản của bạn đã bị khóa",
+        "BLOCK_ACCOUNT_PLEASE_TEXT": "Vui lòng ",
+        "BLOCK_ACCOUNT_CONTACT_TEXT": "liên hệ support 24/7 ",
+        "BLOCK_ACCOUNT_TO_SUPPORT_TEXT": "để được hỗ trợ.",
+        "BLOCK_ACCOUNT_BACK_TO_LOGIN_TEXT": "Trở về trang đăng nhập",
+        "BLOCK_ACCOUNT_BACK_TO_HOME_TEXT": "Về trang chủ"
+    },
+    "SCREEN_EMAIL_NOTIFICATION": {
+        "EMAIL_NOTIFICATION_HEADER_TEXT": "Khôi phục tài khoản",
+        "EMAIL_NOTIFICATION_SEND_TO_TEXT": "Chúng tôi đã gửi email xác thực đến:",
+        "EMAIL_NOTIFICATION_HIDDEN_TEXT": "[Email đã đăng ký].",
+        "EMAIL_NOTIFICATION_GUIDE_TEXT": "Vui lòng click vào link trong email được nhận để cài lại mật khẩu.",
+        "EMAIL_NOTIFICATION_SEND_OVER_TIME_TEXT": "*Bạn đã yêu cầu gửi lại email khôi phục quá 3 lần.",
+        "EMAIL_NOTIFICATION_OTHER_METHOD_TEXT": "Nếu có vấn đề đăng nhập, bạn có thể chọn phương thức khác hoặc ",
+        "EMAIL_NOTIFICATION_CONTACT_SUPPORT_TEXT": "liên hệ nhân sự Support 24/7.",
+        "EMAIL_NOTIFICATION_NOT_RECEIVED_EMAIL_TEXT": "Tôi chưa nhận được email khôi phục, ",
+        "EMAIL_NOTIFICATION_SEND_AGAIN_TEXT": "gửi lại",
+        "EMAIL_NOTIFICATION_USE_OTHER_METHOD_TEXT": "Sử dụng phương thức khôi phục khác.",
+        "EMAIL_NOTIFICATION_BACK_TO_LOGIN_TEXT": "Trở lại trang Đăng nhập",
+        "EMAIL_NOTIFICATION_HEADER_POPUP_TEXT": "Bạn có chắc chắn?",
+        "EMAIL_NOTIFICATION_OTHER_METHOD_POPUP_TEXT": "Bạn có chắc chắn muốn sử dụng phương thức khôi phục khác?",
+        "EMAIL_NOTIFICATION_NOT_USE_EMAIL_OTP_TEXT": "Email khôi phục hoặc OTP hiện tại sẽ ",
+        "EMAIL_NOTIFICATION_NOT_AVAILABLE_TEXT": "không thể sử dụng được",
+        "EMAIL_NOTIFICATION_YES_TEXT": "Có",
+        "EMAIL_NOTIFICATION_NO_TEXT": "Không"
+    },
+    "ERROR": {
+        "NOTICE_CAPSLOCK": "Capslock đang được bật",
+        "ERROR_EMPTY": "Vui lòng nhập thông tin tương ứng",
+        "ERROR_INVALID": "Vui lòng nhập thông tin hợp lệ",
+        "ERROR_FIRSTNAME": "Vui lòng nhập thông tin tương ứng",
+        "ERROR_MIDDLENAME": "Vui lòng nhập thông tin hợp lệ",
+        "ERROR_LASTNAME": "Vui lòng nhập thông tin tương ứng",
+        "ERROR_EMAIL":
+            "Email không đúng định dạng vui lòng nhập lại",
+        "ERROR_GENDER": "Vui lòng chọn quý danh",
+        "ERROR_PASSWORD":
+            "Vui lòng tạo mật khẩu theo đúng hướng dẫn",
+        "ERROR_REPEAT_PASSWORD": "Mật khẩu không trùng khớp",
+        "ERROR_TARGET":
+            "Vui lòng chọn tài khoản bạn muốn đăng ký!",
+        "ERROR_AGREE": "Bạn chưa đồng ý điều khoản sử dụng",
+        "ERROR_PHONE": "Vui lòng điền số điện thoại hợp lệ (10 chữ số)",
+        "ERROR_OTP": "Bạn đã điền sai mã OTP"
+    },
+    "REDIRECT_LINK": {
+        "BACK_TO_HOME_LINK_TEXT": "Về trang chủ",
+        "BACK_TO_REGISTER_LINK_TEXT": "Trở về trang đăng ký",
+        "BACK_TO_LOGIN_LINK_TEXT": "Trở về trang đăng nhập",
+        "LOGIN_AGAIN_LINK_TEXT": "Đăng nhập lại"
+    }
+}
