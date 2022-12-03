@@ -1,4 +1,4 @@
-import config from 'config'
+import config from 'config';
 import { Config } from '../../../bounded-context/type'
 
 import { container } from '../../../container'
@@ -11,23 +11,23 @@ export interface IConfiguration {
 
 
 export default class Configuration implements IConfiguration {
-    protected config: config.IConfig
+    protected configs: config.IConfig
     private configurationMapper: IConfigurationMapper
 
     constructor() {
-        this.config = config
+        this.configs = config
 
         this.configurationMapper = container.resolve<IConfigurationMapper>(`configurationMapper`)
     }
 
     public get(setting: string): Config | undefined {
         try {
-            return this.configurationMapper.mapping(this.config.get(setting));
+            return this.configurationMapper.mapping(this.configs.get(setting));
         }
         catch (error) { return; }
     }
 
     public has(setting: string): boolean {
-        return this.config.has(setting)
+        return this.configs.has(setting)
     }
 }

@@ -13,7 +13,7 @@ export class CreateQuery{
         this.model = model;
         this.ctx = ctx;
     }
-    public async execute<TEntity = any>(data : TEntity & {createdBy?: number} , options? : CreateQueryOptions) : Promise<Model<TEntity>> {
+    public async execute<TEntity = any>(data : TEntity & {createdBy?: number} , options? : CreateQueryOptions) : Promise<void | Model<TEntity>> {
         if(!data) throw Error("Missing data")
 
         if(this.ctx.user && this.ctx.user.id)

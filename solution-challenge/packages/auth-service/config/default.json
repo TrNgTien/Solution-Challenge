@@ -1,0 +1,29 @@
+{
+  "config": {
+    "http": {
+      "port": 3010
+    },
+    "debug": {
+      "level": "info",
+      "rootNamespace": "APP"
+    },
+    "db": {
+      "host": "192.168.2.43",
+      "port": 3306,
+      "user": "superadmin",
+      "pass": "superadmin!#-312AD",
+      "name": "auth"
+    },
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "user": "testvinamr123@gmail.com",
+      "pass": "qvniptytcyjprzwe"
+    },
+    "locale": {
+      "default": "vi",
+      "support": ["vi", "en"],
+      "dir": "locale"
+    }
+  }
+}
