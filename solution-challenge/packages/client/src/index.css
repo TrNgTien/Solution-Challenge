@@ -1,18 +1,34 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --primary-color: #216FDB;
+  --white: white;
+  --black: black;
+  --gray-color: #d1d1d1;
+  --dark-gray-color: darkgrey;
+  --secondary-text: #65676b;
+  --danger-color: #c71a1a;
+  --active-color: rgb(77, 185, 77);
+  --text-dark-color: #3d3b3b;
+  --text-link-color: #3c939e;
+  --blue-link: #216FDB;
+  --secondary-bubble-chat: #E4E6EB;
+  --background-color-common: #f0f2f5;
+  --hover-color: #dedfe1;
+  --box-shadow-common: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --box-shadow-strong: 0px 5px 8px -6px rgba(0, 0, 0, 0.75);
+  --z-index-low: 9;
+  --z-index-medium: 99;
+  --z-index-higher: 999;
+  --z-index-highest: 999999;
+  --divider-color: #ced0d4;
+  --background-color-btn: #e4e6eb;
+  --comment-background: #d1d1d195;
+  --blue-30: #ECF3FF;
+  --blue-40: #e1ebfc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
