@@ -1,0 +1,36 @@
+@mixin btnProfile() {
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 6px;
+  display: flex;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: linear 0.3s;
+  }
+}
+@mixin positionFixedTop() {
+  right: 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: var(--z-index-medium);
+  position: fixed;
+}
+@mixin sizeIcon() {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+@mixin avatarSize() {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+@mixin divider {
+  background: rgb(85, 85, 85);
+  opacity: 0.2;
+  width: 95%;
+  margin: 10px auto;
+}

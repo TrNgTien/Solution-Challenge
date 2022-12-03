@@ -6,7 +6,7 @@ import CircleLoading from "@/components/common/loading-delay/CircleLoading";
 // import { setLoginSuccess } from "@slices/AuthenSlice";
 // import { IShowPass } from "@constants/InterfaceModel";
 // import { setLocalStorage } from "@utils/LocalStorageUtil";
-import "./styles/LoginPage.css";
+import "./styles/LoginPage.scss";
 
 export default function LoginPage() {
   const location = useLocation();

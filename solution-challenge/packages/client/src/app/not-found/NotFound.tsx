@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./NotFound.css";
+import "./NotFound.scss";
 
 function NotFound() {
   const NOTFOUND_IMG = "https://images.ui8.net/uploads/6_1632688928415.png";

@@ -4,7 +4,7 @@ import CircleLoading from "@/components/common/loading-delay/CircleLoading";
 // import { RegisterReq } from "@services/AuthService";
 // import { IShowPass } from "@constants/InterfaceModel";
 // import Icons from "@theme/Icons";
-import "./styles/RegisterPage.css";
+import "./styles/RegisterPage.scss";
 
 export default function RegisterPage(props: any) {
   let navigate = useNavigate();
