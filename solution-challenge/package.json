@@ -4,7 +4,7 @@
   "description": "Product for Google's solutions challenge",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start --workspaces=auth-service"
+    "start:auth": "npm start --workspaces=auth-service"
   },
   "workspaces": [
     "./packages/*"

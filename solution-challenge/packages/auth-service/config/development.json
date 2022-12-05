@@ -8,10 +8,10 @@
       "rootNamespace": "APP"
     },
     "db": {
-      "host": "192.168.2.43",
+      "host": "localhost",
       "port": 3306,
-      "user": "superadmin",
-      "pass": "superadmin!#-312AD",
+      "user": "root",
+      "pass": "mauFJcuf5dhRMQrjj",
       "name": "auth"
     },
     "smtp": {
