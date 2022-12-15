@@ -7,9 +7,11 @@ import CircleLoading from "@/components/common/loading-delay/CircleLoading";
 // import { IShowPass } from "@constants/InterfaceModel";
 // import { setLocalStorage } from "@utils/LocalStorageUtil";
 import "./styles/LoginPage.scss";
+import { useTranslation } from "react-i18next";
 
 export default function LoginPage() {
   const location = useLocation();
+  const { t } = useTranslation();
   const navigate = useNavigate();
   // const dispatch = useAppDispatch();
   const [userName, setUserName] = useState<string>("");
@@ -74,7 +76,8 @@ export default function LoginPage() {
             Facebook helps you to connect and share with the people in your
             life.&nbsp;
             <em style={{ color: "dodgerblue" }}>
-              But Clone Team helps you improve your skills.
+              {t("loginPage.welcome")}
+              {/* But Clone Team helps you improve your skills. */}
             </em>
           </p>
         </div>

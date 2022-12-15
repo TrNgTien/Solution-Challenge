@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import { CacheProvider } from "@rest-hooks/react";
 import "./index.scss";
 import MainRoutes from "./routes/MainRoutes";
-
+import "./locales/in18n.ts";
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <CacheProvider>
     <React.StrictMode>
