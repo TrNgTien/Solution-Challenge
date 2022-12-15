@@ -18,13 +18,6 @@ export default function LoginPage() {
   const [isFocusUser, setIsFocusUser] = useState<boolean>(false);
   const [showPassword, setShowPassword] = useState<boolean>(false);
   const [isLoadingLogin, setIsLoadingLogin] = useState<boolean>(false);
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    if (pathname === `/`) {
-      document.title = `Facebook Clone`;
-    }
-  }, [pathname]);
   // const RenderIcon = ({ showPassword }: IShowPass) => {
   //   if (!showPassword) return <AiFillEyeInvisible />;
   //   else return <AiFillEye />;
