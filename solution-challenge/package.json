@@ -4,11 +4,16 @@
   "description": "Product for Google's solutions challenge",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:auth": "npm start --workspaces=auth-service"
+    "start": "concurrently \"npm:start*\"",
+    "start:auth": "npm start -w auth-service",
+    "start:client": "npm run dev -w client"
   },
   "workspaces": [
     "./packages/*"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
 }
