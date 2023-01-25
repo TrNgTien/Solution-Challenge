@@ -1,8 +1,7 @@
 import Cookies from "universal-cookie";
-
 const cookies = new Cookies();
 
-const setCookie = (name: string, value: any) => cookies.set(name, value);
+const setCookie = (name: string, value: string) => cookies.set(name, value);
 
 const getCookie = (name: string) => cookies.get(name);
 

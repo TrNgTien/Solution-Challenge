@@ -1,6 +1,6 @@
 import jwtDecode from "jwt-decode";
-import { IJwtDecode } from "@/constants/InterfaceModel";
+import { JwtDecode } from "@/types/jwt-decode";
 export const decodedID = (token: string) => {
-  const decoded = jwtDecode<IJwtDecode>(token);
+  const decoded = jwtDecode<JwtDecode>(token);
   return decoded.id;
 };

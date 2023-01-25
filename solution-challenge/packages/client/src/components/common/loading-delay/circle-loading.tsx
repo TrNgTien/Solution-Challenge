@@ -1,5 +1,5 @@
 import React from "react";
-import "./CircleLoading.scss";
+import "./circle-loading.scss";
 export default function CircleLoading() {
   return (
     <div className="background__circle-loading">
