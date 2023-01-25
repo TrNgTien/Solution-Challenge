@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm:start*\"",
-    "start:auth": "npm start -w auth-service",
-    "start:client": "npm run dev -w client"
+    "start:auth": "npm start --workspace=auth-service",
+    "start:client": "npm run dev -workspace=client"
   },
   "workspaces": [
     "./packages/*"
