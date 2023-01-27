@@ -1,4 +1,4 @@
-import { History, Location } from 'history';
+import { Location } from 'history';
 import { parse, stringify } from 'query-string';
 import { useNavigate, useLocation, useParams, NavigateFunction } from 'react-router';
 
