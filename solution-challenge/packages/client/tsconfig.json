@@ -17,11 +17,11 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@style/*": ["src/core/ui-tokens"],
-      "@component/*": ["src/core/business-component"],
-      "@rest/*": ["src/core/rest-hook"],
-      "@navigation/*": ["src/core/navigation"] 
+      "@style/*": ["src/core/ui-tokens/*"],
+      "@component/*": ["src/core/business-component/*"],
+      "@rest/*": ["src/core/rest-hook/*"],
+      "@navigation/*": ["src/core/navigation/*"],
+      "@page/*": ["src/pages/*"]
     }
   },
   "include": ["src"],

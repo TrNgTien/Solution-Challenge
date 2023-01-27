@@ -1,10 +1,10 @@
-import {  Entity, Resource } from '@rest-hooks/rest';
+import { Resource } from '@rest-hooks/rest';
 import Cookies from 'js-cookie';
 import { AxiosRequestHeaders, AxiosResponse, Method } from 'axios';
 
 import axios from './axios';
 
-export abstract class SCRestResource extends Entity {
+export abstract class SCRestResource extends Resource {
     
   static async fetch(input: RequestInfo, init: RequestInit): Promise<any> {
     const response: AxiosResponse = await this.fetchWithAxios(input, init);

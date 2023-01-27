@@ -9,6 +9,12 @@ export default defineConfig({
     port: 3000,
   },
   resolve: {
-    alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }],
+    alias: [
+      { find: '@style', replacement: path.resolve(__dirname, 'src/core/ui-tokens') },
+      { find: '@component', replacement: path.resolve(__dirname, 'src/core/business-component') },
+      { find: '@rest', replacement: path.resolve(__dirname, 'src/core/rest-hook') },
+      { find: '@navigation', replacement: path.resolve(__dirname, 'src/core/navigation/') },
+      { find: '@page', replacement: path.resolve(__dirname, 'src/pages/') } 
+    ],
   },
 })

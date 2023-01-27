@@ -14,11 +14,10 @@
     "@types/react-dom": "^18.0.8"
   },
   "dependencies": {
-    "@rest-hooks/hooks": "^3.1.5",
-    "@rest-hooks/legacy": "^6.0.0",
-    "@rest-hooks/react": "^7.1.7",
-    "@rest-hooks/rest": "^6.3.0",
-    "@rest-hooks/test": "^9.1.4",
+    "@rest-hooks/endpoint": "^2.1.0",
+    "@rest-hooks/legacy": "^4.3.3",
+    "@rest-hooks/rest": "^3.0.3",
+    "rest-hooks": "^6.1.7",
     "@types/history": "^5.0.0",
     "axios": "^1.2.5",
     "history": "^5.3.0",
