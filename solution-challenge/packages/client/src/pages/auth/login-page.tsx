@@ -6,7 +6,7 @@ import CircleLoading from "@/components/common/loading-delay/circle-loading";
 // import { setLoginSuccess } from "@slices/AuthenSlice";
 // import { IShowPass } from "@constants/InterfaceModel";
 // import { setLocalStorage } from "@utils/LocalStorageUtil";
-import "./styles/LoginPage.scss";
+import "./login-page.scss";
 import { useTranslation } from "react-i18next";
 
 export default function LoginPage() {

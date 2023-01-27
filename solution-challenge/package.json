@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm:start*\"",
     "start:auth": "npm start --workspace=auth-service",
-    "start:client": "npm run dev -workspace=client",
+    "start:client": "npm run start --workspace=client",
     "start:server": "npm run start:dev --workspace=server"
   },
   "workspaces": [
