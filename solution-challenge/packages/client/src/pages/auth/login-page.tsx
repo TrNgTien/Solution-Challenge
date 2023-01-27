@@ -1,6 +1,6 @@
 import { KeyboardEvent, useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import CircleLoading from "@/components/common/loading-delay/circle-loading";
+import CircleLoading from "@/core/business-component/loading-delay/circle-loading";
 // import { LoginReq } from "@services/AuthService";
 // import { useAppDispatch } from "@hooks/useStore";
 // import { setLoginSuccess } from "@slices/AuthenSlice";

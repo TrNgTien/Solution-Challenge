@@ -1,6 +1,6 @@
 import React, { ChangeEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import CircleLoading from "@/components/common/loading-delay/circle-loading";
+import CircleLoading from "@/core/business-component/loading-delay/circle-loading";
 // import { RegisterReq } from "@services/AuthService";
 // import { IShowPass } from "@constants/InterfaceModel";
 // import Icons from "@theme/Icons";
