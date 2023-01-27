@@ -1,6 +1,3 @@
-/** @jsxRuntime classic */ // needed on the very top to work properly with IE11
-import './polyfills.js';
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
